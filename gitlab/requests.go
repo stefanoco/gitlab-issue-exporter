@@ -9,7 +9,7 @@ import (
 
 func gitlabRequest(privateToken, host, path string) (*http.Response, error) {
 	client := &http.Client{}
-	req, _ := http.NewRequest("GET", fmt.Sprintf("https://%s/api/v3%s", host, path), nil)
+	req, _ := http.NewRequest("GET", fmt.Sprintf("%s/api/v3%s", host, path), nil)
 	req.Header.Add("PRIVATE-TOKEN", privateToken)
 	return client.Do(req)
 }
