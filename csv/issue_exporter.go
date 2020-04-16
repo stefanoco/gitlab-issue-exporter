@@ -3,7 +3,7 @@ package csv
 import (
 	"encoding/csv"
 	"io"
-	"github.com/b0m0x/gitlab-issue-exporter/gitlab"
+	"github.com/stefanoco/gitlab-issue-exporter/gitlab"
 )
 
 type CsvIssueWriter struct {

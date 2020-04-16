@@ -3,8 +3,8 @@ package main
 import (
 	"fmt"
 	"os"
-	"github.com/b0m0x/gitlab-issue-exporter/csv"
-	"github.com/b0m0x/gitlab-issue-exporter/gitlab"
+	"github.com/stefanoco/gitlab-issue-exporter/csv"
+	"github.com/stefanoco/gitlab-issue-exporter/gitlab"
 	"flag"
 )
 
